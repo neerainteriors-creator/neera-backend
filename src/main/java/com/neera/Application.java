@@ -1,4 +1,3 @@
-@"
 package com.neera;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -24,4 +23,3 @@ public class Application {
         return res;
     }
 }
-"@ | Out-File -FilePath src/main/java/com/neera/Application.java -Encoding utf8
